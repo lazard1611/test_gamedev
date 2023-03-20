@@ -1,0 +1,6 @@
+const default_vue_vue_type_style_index_0_scoped_08ff0cb3_lang = ".app[data-v-08ff0cb3]{height:100vh}.wrapper[data-v-08ff0cb3]{display:flex;flex-direction:column;height:auto!important;min-height:100%;overflow-x:hidden}.base[data-v-08ff0cb3],.wrapper[data-v-08ff0cb3]{position:relative;width:100%}.base[data-v-08ff0cb3]{flex:1 0 auto;overflow:hidden;padding:var(--height-header) 0 0}.icon[data-v-08ff0cb3]{fill:currentColor;display:block}.icon.icon--size_mod[data-v-08ff0cb3]{height:100%;width:100%}@media screen and (min-width:768px){[data-v-08ff0cb3]:root{--gl-indent:2.4rem;--height-header:9.2rem}}@media screen and (max-width:767px){[data-v-08ff0cb3]:root{--gl-indent:1.5rem;--height-header:6rem}.base[data-v-08ff0cb3]{display:flex;flex-direction:column-reverse}}@media screen and (min-width:1200px){html[data-v-08ff0cb3]{font:400 .6944444444vw/1.33 Roboto,sans-serif}}@media (max-width:1199px)and (min-width:375px){html[data-v-08ff0cb3]{font-family:Roboto,sans-serif;font-size:10px}}@media screen and (max-width:374px){html[data-v-08ff0cb3]{font:400 2.6666666667vw/1.33 Roboto,sans-serif}}";
+
+const defaultStyles_bb106fbf = [default_vue_vue_type_style_index_0_scoped_08ff0cb3_lang];
+
+export { defaultStyles_bb106fbf as default };
+//# sourceMappingURL=default-styles.bb106fbf.mjs.map
