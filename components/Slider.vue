@@ -3,8 +3,8 @@
     <Swiper
         :modules="[SwiperPagination, SwiperNavigation]"
         :slides-per-view="1"
-        :effect="'creative'"
-
+        :effect="'fade'"
+        :pagination="{ el: '.pagination', clickable: true }"
     >
       <SwiperSlide v-for="slide in 3" :key="slide">
         <SliderItem :slide_title="`${slide}`"/>
@@ -20,6 +20,8 @@
 </template>
 
 <script>
+import 'swiper/css/effect-fade';
+
 export default {
 name: "Slider",
 
@@ -59,10 +61,17 @@ name: "Slider",
   background-color: #e6e8ec;
   height: .8rem;
   opacity: 1;
-  width: .8rem
+  width: .8rem;
+}
+
+.swiper-pagination-bullet {
+  background-color: #e6e8ec;
+  height: .8rem;
+  opacity: 1;
+  width: .8rem;
 }
 
 .slider .swiper-pagination-bullet-active {
-  background-color: #ffd166
+  background-color: #ffd166;
 }
 </style>

@@ -13,7 +13,7 @@
         <Icon name="close_circle"/>
       </div>
     </div>
-    <label class="input__label">{{label}}</label>
+    <label v-if="type === 'password'" class="input__label">{{label}}</label>
   </div>
 </template>
 
@@ -52,15 +52,6 @@ export default {
   position: relative
 }
 
-.input_wrap.input_wrap--validate_mod .input__icon--check_mod {
-  display: block;
-  color: #58bd7d;
-}
-
-.input_wrap.input_wrap--validate_mod .input {
-  border-color: #58bd7d
-}
-
 .input {
   background: transparent;
   border: 2px solid #353945;
@@ -71,6 +62,15 @@ export default {
   font-weight: 700;
   padding: 1.3rem 4.2rem 1.3rem 1.6rem;
   width: 100%
+}
+
+.input_wrap.input_wrap--validate_mod .input__icon--check_mod {
+  display: block;
+  color: #58bd7d;
+}
+
+.input_wrap.input_wrap--validate_mod .input {
+  border-color: #58bd7d;
 }
 
 .input::-webkit-input-placeholder {
@@ -98,28 +98,29 @@ export default {
   opacity: 1
 }
 
-.not_validate_state .input::-webkit-input-placeholder {
+.not_validate_state .input[type="password"]::-webkit-input-placeholder {
   color: #ff6838
 }
 
-.not_validate_state .input::-moz-placeholder {
+.not_validate_state .input[type="password"]::-moz-placeholder {
   color: #ff6838
 }
 
-.not_validate_state .input:-ms-input-placeholder {
+.not_validate_state .input[type="password"]:-ms-input-placeholder {
   color: #ff6838
 }
 
-.not_validate_state .input::-ms-input-placeholder {
+.not_validate_state .input[type="password"]::-ms-input-placeholder {
   color: #ff6838
 }
 
-.not_validate_state .input::placeholder {
+.not_validate_state .input[type="password"]::placeholder {
   color: #ff6838
 }
 
-.not_validate_state .input {
-  border-color: #ff6838
+.not_validate_state .input[type="password"] {
+  border-color: #ff6838;
+  color: #ff6838;
 }
 
 .input[type=email]:valid {

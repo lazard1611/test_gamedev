@@ -10,63 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38bd0b8b-9aab-4bc9-970b-943c5b1d7713" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/assets/css/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Gilroy-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Gilroy-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Gilroy-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Gilroy-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/graph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/graph_slider.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/lines_slider.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor_4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor_5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/main_decor_6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/sign_horns_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/sign_horns_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/submitForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/validatePassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CheckItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/FormInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Hero.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Icon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/IconFrame.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MainDecor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PopupLogin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PopupReg.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Slider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SliderButtonNext.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SliderButtonPrev.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SliderItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SocialLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Traffic.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/initPopup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/showPassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/submitForm.js" afterDir="false" />
+    <list default="true" id="38bd0b8b-9aab-4bc9-970b-943c5b1d7713" name="Default Changelist" comment="feat: structure and styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FormInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/FormInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Slider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/swiper/modules/pagination/pagination-element.min.css" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -144,7 +93,7 @@
       <workItem from="1679129866493" duration="13173000" />
       <workItem from="1679212503337" duration="16855000" />
       <workItem from="1679236621260" duration="33193000" />
-      <workItem from="1679302840662" duration="10142000" />
+      <workItem from="1679302840662" duration="16045000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679081225619</created>
@@ -160,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679081302099</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: structure and styles">
+      <created>1679313177921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679313177921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="feat: structure and styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: structure and styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1679312872950">
@@ -196,29 +153,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1679240292029" />
-    <state width="1557" height="84" key="GridCell.Tab.0.bottom" timestamp="1679306822967">
+    <state width="1557" height="75" key="GridCell.Tab.0.bottom" timestamp="1679319138539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="84" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1679306822967" />
-    <state width="1557" height="84" key="GridCell.Tab.0.center" timestamp="1679306822967">
+    <state width="1557" height="75" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
+    <state width="1557" height="75" key="GridCell.Tab.0.center" timestamp="1679319138539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="84" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1679306822967" />
-    <state width="1557" height="84" key="GridCell.Tab.0.left" timestamp="1679306822967">
+    <state width="1557" height="75" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
+    <state width="1557" height="75" key="GridCell.Tab.0.left" timestamp="1679319138539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="84" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1679306822967" />
-    <state width="1557" height="84" key="GridCell.Tab.0.right" timestamp="1679306822967">
+    <state width="1557" height="75" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
+    <state width="1557" height="75" key="GridCell.Tab.0.right" timestamp="1679319138539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="84" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1679306822967" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1679081305447">
+    <state width="1557" height="75" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1679313183647">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1679081305447" />
-    <state x="507" y="134" width="585" height="592" key="find.popup" timestamp="1679260888830">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1679313183647" />
+    <state x="638" y="160" width="585" height="592" key="find.popup" timestamp="1679316835360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="134" width="585" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1679260888830" />
+    <state x="638" y="160" width="585" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1679316835360" />
   </component>
 </project>

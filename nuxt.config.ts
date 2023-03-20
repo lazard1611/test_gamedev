@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     css: [
+        // '~/node_modules/swiper/modules/pagination/pagination-element.min.css',
         '~/assets/css/reset.css',
         '~/assets/css/main.css',
         '~/assets/css/section.css',
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
         // Swiper options
         //----------------------
         // prefix: 'Swiper',
-        // styleLang: 'css',
+        styleLang: 'css',
         modules: ['navigation', 'pagination'], // all modules are imported by default
     }
 })
