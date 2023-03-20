@@ -1,0 +1,38 @@
+.section {
+    padding: 0 var(--gl-indent);
+    position: relative;
+    width: 100%
+}
+
+.section_in {
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 100%
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .section.section__hero {
+        padding-bottom: 6rem;
+        padding-top: 9.6rem
+    }
+
+    .section.section__traffic {
+        padding-bottom: 10rem;
+        padding-top: 6.5rem
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .section.section__hero {
+        padding-bottom: 5rem;
+        padding-top: 2.4rem
+    }
+
+    .section.section__traffic {
+        padding-bottom: 2.4rem;
+        padding-top: 5rem
+    }
+}
