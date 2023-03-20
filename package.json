@@ -1,11 +1,13 @@
 {
   "private": true,
+  "homepage": "https://lazard1611.github.io/test_gamedev/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d .output/server"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.2.1",
@@ -17,6 +19,7 @@
   "dependencies": {
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/axios": "^5.13.6",
+    "gh-pages": "^5.0.0",
     "nuxt-swiper": "^1.0.1",
     "sass": "^1.59.3"
   }

@@ -12,9 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="38bd0b8b-9aab-4bc9-970b-943c5b1d7713" name="Default Changelist" comment="feat: structure and styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FormInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/FormInput.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MainDecor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainDecor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PopupReg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopupReg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SocialLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/SocialLink.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -63,7 +73,27 @@
       <recent name="D:\Web\project\test_gamedev\plugins" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -74,9 +104,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="generate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.generate" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +136,7 @@
       <workItem from="1679129866493" duration="13173000" />
       <workItem from="1679212503337" duration="16855000" />
       <workItem from="1679236621260" duration="33193000" />
-      <workItem from="1679302840662" duration="16045000" />
+      <workItem from="1679302840662" duration="29720000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679081225619</created>
@@ -116,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679313177921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: structure and styles">
+      <created>1679319521921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679319521921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,26 +203,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1679240292029" />
-    <state width="1557" height="75" key="GridCell.Tab.0.bottom" timestamp="1679319138539">
+    <state width="1557" height="122" key="GridCell.Tab.0.bottom" timestamp="1679331317203">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="75" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
-    <state width="1557" height="75" key="GridCell.Tab.0.center" timestamp="1679319138539">
+    <state width="1557" height="122" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1679331317203" />
+    <state width="1557" height="122" key="GridCell.Tab.0.center" timestamp="1679331317202">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="75" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
-    <state width="1557" height="75" key="GridCell.Tab.0.left" timestamp="1679319138539">
+    <state width="1557" height="122" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1679331317202" />
+    <state width="1557" height="122" key="GridCell.Tab.0.left" timestamp="1679331317202">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="75" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
-    <state width="1557" height="75" key="GridCell.Tab.0.right" timestamp="1679319138539">
+    <state width="1557" height="122" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1679331317202" />
+    <state width="1557" height="122" key="GridCell.Tab.0.right" timestamp="1679331317203">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="75" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1679319138539" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1679313183647">
+    <state width="1557" height="122" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1679331317203" />
+    <state x="629" y="132" key="RollbackChangesDialog" timestamp="1679325523087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1679313183647" />
+    <state x="629" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1679325523087" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1679319525516">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1679319525516" />
     <state x="638" y="160" width="585" height="592" key="find.popup" timestamp="1679316835360">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

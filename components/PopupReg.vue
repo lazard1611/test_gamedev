@@ -59,8 +59,11 @@
 </template>
 
 <script>
+import SocialLink from "~/components/SocialLink.vue";
+
 export default {
   name: "popup",
+  components: [SocialLink],
   props: {
     id: {
       type: String,

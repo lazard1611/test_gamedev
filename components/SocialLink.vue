@@ -7,14 +7,17 @@
 </template>
 
 <script>
+import Icon from "~/components/Icon.vue";
+
 export default {
   name: "SocialLink",
+  components: [Icon],
   props: {
     name: {
       type: String,
-      required: true,
+      required: false,
     },
-    href: {
+    url: {
       type: String,
       required: false,
     }

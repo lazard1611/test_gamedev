@@ -120,4 +120,47 @@ export default {
   margin: 0 1.2rem;
   width: 1.5rem
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 3.9rem 4.2rem
+  }
+
+  .hero__head:not(:last-child) {
+    margin-bottom: 2.5rem
+  }
+
+  .hero__title {
+    font-size: 4rem;
+    line-height: 1.2;
+    padding: 0 2.5rem
+  }
+
+  .hero__head_decor {
+    height: 4.5rem;
+    width: 3.6rem
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    padding: 2.5rem
+  }
+
+  .hero__head:not(:last-child) {
+    margin-bottom: 3rem
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 0 1rem
+  }
+
+  .hero__head_decor {
+    height: 2.5rem;
+    width: 2rem
+  }
+}
+
 </style>

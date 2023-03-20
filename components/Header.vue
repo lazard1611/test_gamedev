@@ -90,4 +90,37 @@ export default {
 .header__btn_item {
   padding: 0 1.5rem 1.5rem 0
 }
+
+@media screen and (min-width: 768px) {
+  .header__in {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 2.4rem var(--gl-indent)
+  }
+
+  .header__logo {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 22.2rem
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__in {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem var(--gl-indent)
+  }
+
+  .header__logo {
+    margin-right: 2rem;
+    width: 14.8rem
+  }
+}
+
 </style>
