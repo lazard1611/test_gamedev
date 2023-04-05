@@ -64,6 +64,10 @@ export default {
   width: 100%
 }
 
+.input:focus {
+  border-color: #ffc737;
+}
+
 .input_wrap.input_wrap--validate_mod .input__icon--check_mod {
   display: block;
   color: #58bd7d;
@@ -154,7 +158,7 @@ export default {
 
 .input_button:focus,
 .input_button:hover {
-  color: #fff
+  color: #fff;
 }
 
 .not_validate_state .input_button {

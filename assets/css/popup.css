@@ -26,13 +26,17 @@
 }
 
 .popup__in {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: center;
     width: 100%;
+}
+
+#popup_login .popup__in {
+    width: 35.5rem;
+    height: 28.4rem;
+}
+
+#popup_registration .popup__in {
+    width: 77rem;
+    height: 60rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -42,6 +46,10 @@
         align-items: center;
         padding: 6rem var(--gl-indent)
     }
+
+    .popup__in {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -50,5 +58,9 @@
         -ms-flex-align: end;
         align-items: flex-end;
         padding: 1rem
+    }
+
+    .popup__in {
+        margin-top: auto;
     }
 }
